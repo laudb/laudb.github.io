@@ -1,0 +1,19 @@
+/* {
+    background-color:#0000FF;
+}
+*/
+
+.col-lg-6 p {
+	font-size: 14px;
+	
+}
+
+.jumbotron {
+	background-color: #C7CFDB;
+}
+
+img {  
+	display: block;
+	height: 50%;
+	max-width: 100%;
+}
