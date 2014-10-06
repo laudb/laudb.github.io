@@ -8,12 +8,35 @@
 	
 }
 
+
+p {
+	font-family: serif;
+}
+
+a{
+	color:#777;
+}
+
 .jumbotron {
 	background-color: #C7CFDB;
 }
+
+#profile {
+	border:2px solid #777;
+}
+
+#nh:hover {
+	background-color: #428bca;
+	-webkit-transition: all 0s linear 1s;
+    -moz-transition: all 0s linear 1s;
+    -ms-transition: all 0s linear 1s;
+    transition: all 0s linear 1s;
+}
+
 
 img {  
 	display: block;
 	height: 50%;
 	max-width: 100%;
+	
 }
