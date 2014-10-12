@@ -26,7 +26,8 @@ a{
 }
 
 #nh:hover {
-	background-color: #428bca;
+	background-color: #0084FF;
+
 	-webkit-transition: all 0s linear 1s;
     -moz-transition: all 0s linear 1s;
     -ms-transition: all 0s linear 1s;
