@@ -3,6 +3,16 @@
 }
 */
 
+.navbar-fixed-top {
+  border-bottom: solid #000;
+  border-width: 1px;
+}
+
+.navbar-fixed-bottom {
+  border-top: solid #000;
+  border-width: 1px;
+} 
+
 .col-lg-6 p {
 	font-size: 14px;
 	
@@ -17,21 +27,22 @@ a{
 	color:#777;
 }
 
+
 .jumbotron {
 	background-color: #C7CFDB;
 }
 
 #profile {
-	border:2px solid #777;
+	border:2px solid #000;
 }
 
 #nh:hover {
 	background-color: #0084FF;
 
 	-webkit-transition: all 0s linear 1s;
-    -moz-transition: all 0s linear 1s;
-    -ms-transition: all 0s linear 1s;
-    transition: all 0s linear 1s;
+  -moz-transition: all 0s linear 1s;
+  -ms-transition: all 0s linear 1s;
+  transition: all 0s linear 1s;
 }
 
 
