@@ -1,27 +1,21 @@
 /* Navbar Styling */
-.navbar-fixed-top {
-  border-bottom: solid #000;
-  border-width: 1px;
+
+.navbar{
+   border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(-90deg,white,rgba(230, 230, 230, 0.9));
+    background-image: -moz-linear-gradient(-90deg,white,rgba(230, 230, 230, 0.9));
+    background-image: -ms-linear-gradient(-90deg,white,rgba(230, 230, 230, 0.9));
+    background-image: -o-linear-gradient(-90deg,white,rgba(230, 230, 230, 0.9));
+    background-image: linear-gradient(-90deg,white,rgba(230, 230, 230, 0.9));
+    height: 30px;
+    width: 100%;
 }
-
-.navbar-fixed-bottom {
-  border-top: solid #000;
-  border-width: 1px;
-} 
-
-.navbar-fixed-bottom ul{
-  padding-top: 15px;
-}
-
 
 /* Main Content Styling */
-.col-lg-6 p {
-	font-size: 12px;
-}
 
-h1{
-  font-family: Courier; 
-}
 
 p {
 	font-family: serif;
@@ -29,6 +23,10 @@ p {
 
 a{
 	color:#777;
+}
+
+a:hover{
+  color: #777;
 }
 
 .jumbotron {
@@ -45,8 +43,7 @@ a{
 
 #profile {
   margin-top: 20px;
-  /*border:2px solid #c0c0c0;*/
-  border: 1px solid #333;
+  border: 1px solid rgba(51, 51, 51, 0.5);
   border-width: 1.5px;
 }
 
@@ -57,7 +54,10 @@ a{
 }
 
 h1.content{
+  font-family: "Trebuchet MS"; 
   padding-left: 20px;
+  background-color: rgba(51, 51, 51, 0.62);
+  color:#fff;
 }
 
 .content{
@@ -66,25 +66,29 @@ h1.content{
   border: 1px solid rgba(51, 51, 51, 0.5);
   border-radius: 2px;
 }
-/*.name{
-  width: 55%;
-}
-
-.passion{
-  margin-top: 15px;
-}
-
-.skill{
-  
+.name{
+  width: 95%;
 }
 
 .desc{
- width: 60%;
+ width: 80%;
+} 
+
+.passion{
+  width:80%;
+}
+
+.skill{
+  width:80%;
+}
+
+.interest{
+  width:80%;
 }
 
 .edu{
-  width:60%;
-}*/
+  width:80%;
+}
 img {  
   display: block;
   height: 50%;
