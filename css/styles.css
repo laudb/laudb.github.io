@@ -16,29 +16,18 @@
 
 /* Main Content Styling */
 
-
-p {
-	font-family: serif;
-}
-
-a{
-	color:#777;
-}
-
-a:hover{
-  color: #777;
-}
-
 .jumbotron {
 	background-color: #C7CFDB;
+  margin-bottom: 0px;
+  padding-bottom: 31px;
 }
 
 .jumbotron .desc {
-  margin-bottom: 90px;
+  margin-bottom: 75px;
 }
 
 .jumbotron .interest {
-  margin-bottom: 75px;
+  margin-bottom: 70px;
 }
 
 #profile {
@@ -51,6 +40,18 @@ a:hover{
 
 .right-content{
 
+}
+
+p {
+  font-family: serif;
+}
+
+a{
+  color:#777;
+}
+
+a:hover{
+  color: #777;
 }
 
 h1.content{
