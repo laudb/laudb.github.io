@@ -17,7 +17,8 @@
 /* Main Content Styling */
 
 .jumbotron {
-	background-color: #C7CFDB;
+	background-color: #B9C1CC;
+  background-image: url('../light-wool.png');
   margin-bottom: 0px;
   padding-bottom: 31px;
 }
@@ -62,7 +63,7 @@ h1.content{
 }
 
 .content{
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   padding-left: 40px;
   border: 1px solid rgba(51, 51, 51, 0.5);
   border-radius: 2px;
@@ -102,8 +103,11 @@ img {
 .info > li{
   display: inline-block;
   text-decoration: none;
+  color: rgba(51, 51, 51, 0.62);
 }
 
 .info .subscript {
   font-size: 10px;
+  color: rgba(51, 51, 51, 0.62);
+
 }
